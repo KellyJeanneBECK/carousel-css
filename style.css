@@ -11,6 +11,13 @@ main {
   gap: 16px;
 }
 
+h1 {
+  padding-bottom: 32px;
+  font-size: 2.5rem;
+  width: 15ch;
+  max-width: 100%;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -19,18 +26,26 @@ h2 {
 ul {
   list-style: none;
   display: flex;
-  gap: 12px;
+  gap: 24px;
+}
+
+li {
+  background: black;
+  width: 2rem;
+  max-width: 48px;
+  text-align: center;
 }
 
 a {
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: min(1.75rem, 48px);
   text-decoration: none;
+  color: white;
 }
 
 section {
   width: 90vw;
-  height: 80vh;
+  height: 50vh;
   border: 8px solid black;
   display: flex;
   overflow-x: hidden;
