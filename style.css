@@ -3,3 +3,27 @@
   margin: 0;
   padding: 0;
 }
+
+h1,
+h2 {
+  margin: 0 auto;
+  width: fit-content;
+  text-align: center;
+}
+
+section {
+  margin: 0 auto;
+  width: 90vw;
+  height: 80vh;
+  border: 8px solid black;
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+article {
+  scroll-snap-align: start;
+  min-width: 100%;
+  padding: 12px;
+}
